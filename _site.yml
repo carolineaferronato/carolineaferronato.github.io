@@ -1,0 +1,14 @@
+name: "Meu site"
+output_dir: "."
+output: 
+  html_document:
+    theme: journal
+navbar:
+  left: 
+   - text: "Home"
+     href: index.html
+   - text: "Pag 2"
+     href: pag2.html
+     menu:
+      - text: "Economia"
+        href: economia.html
